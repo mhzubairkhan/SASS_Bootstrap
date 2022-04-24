@@ -23,6 +23,18 @@ https://getwaves.io/
 https://tablericons.com/
 https://www.youtube.com/watch?v=iJKCj8uAHz8
 
+Step-1 - Install node
+Step-2 - Initialize npm by command npm init
+Step-3 - Create Package file by pressing enter
+Step-4 - install required packages
+		1- DART-SASS npm install --save-dev sass
+		2- Bootstrap 5 npm install bootstrap --save
+		3- Fontawesome npm install --save @fortawesome/fontawesome-free
+		4- Autoprefixer npm install postcss-cli autoprefixer
+Step-5 - Create compile script in package.json file ("compile:sass":"sass --watch scss:assets/css")
+Step-6 - Customize bootstap by creating sass file with _custom.scss and inclue it in style.scss file.
+
 Day 2 time 2:26
 Day 3 time 3:16
 DAY 4 time 3:59
+DAY 5 FINISH
